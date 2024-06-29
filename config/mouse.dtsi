@@ -3,20 +3,6 @@
 #define U_MOUSE_MOVE_MAX 1700 
 #define U_MOUSE_SCROLL_MAX 30
 
-&mmv {
-  acceleration-exponent = <1>;
-  time-to-max-speed-ms = <400>;
-  delay-ms = <0>;
-};
-
-&mwh {
-  acceleration-exponent = <0>;
-  time-to-max-speed-ms = <200>;
-  delay-ms = <0>;
-};
-
-
-
 #undef MOVE_UP
 #undef MOVE_DOWN
 #undef MOVE_LEFT
@@ -46,3 +32,16 @@
 #define U_WH_D &mwh SCROLL_DOWN
 #define U_WH_L &mwh SCROLL_LEFT
 #define U_WH_R &mwh SCROLL_RIGHT
+
+
+&mmv {
+  acceleration-exponent = <1>;
+  time-to-max-speed-ms = <400>;
+  delay-ms = <0>;
+};
+
+&mwh {
+  acceleration-exponent = <0>;
+  time-to-max-speed-ms = <200>;
+  delay-ms = <0>;
+};
