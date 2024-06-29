@@ -3,7 +3,6 @@
 #include <dt-bindings/zmk/bt.h>
 #include "mouse.dtsi"
 #include <dt-bindings/zmk/outputs.h>
-#include <dt-bindings/zmk/keys.h>
 
 //shift circonflexe pour deux point sur le I
 
@@ -66,13 +65,6 @@
                 COMBO(ctrl_v, 50, &kp LC(BP_V), 27 28)
                 COMBO(ctrl_s, 70, &kp LC(BP_S), 4 5) 
 
-                COMBO(bt_profile_0, 50, &bt BT_SEL 0, 9 10 11) 
-                COMBO(bt_profile_1, 50, &bt BT_SEL 1, 21 22 23) 
-                COMBO(bt_profile_2, 50, &bt BT_SEL 2, 33 34 35)
-
-                COMBO(bt_clear, 50, &bt BT_CLR, 11 23 35) 
-
-
 //                COMBO(lower, 100, &mo 1, 40 42)
 
         };
@@ -104,8 +96,8 @@
             raise_layer {
     
                 bindings = <
-&kp R	          &kp R	        &mwh SCROLL_LEFT	&mmv MOVE_UP	  &mwh SCROLL_RIGHT   &mwh SCROLL_UP                &kp F12	     &kp F6	    &kp F7   &kp F8	    &kp F9	    &kp F10
-&kp LEFT	      &kp R	        &mmv MOVE_LEFT      &mmv MOVE_DOWN    &mmv MOVE_RIGHT     &mwh SCROLL_DOWN              &kp F11       &kp F1     &kp F2	 &kp F3	&kp F4 	&kp F5
+&bt BT_SEL 0	  &bt BT_SEL 1	&mwh SCROLL_LEFT	&mmv MOVE_UP	  &mwh SCROLL_RIGHT   &mwh SCROLL_UP                &kp F1	     &kp F2	    &kp F3   &kp F4	    &kp F5	    &kp F6
+&kp LEFT	      &kp R	        &mmv MOVE_LEFT      &mmv MOVE_DOWN    &mmv MOVE_RIGHT     &mwh SCROLL_DOWN              &kp F7       &kp F8     &kp F9	 &kp F10	&kp F11 	&kp F12
 &kp RC(LS(TAB))   &kp DLLR	    &kp RC(LS(UP))      &kp RC(LS(DOWN))  &kp RC(LS(RIGHT))	  &kp RC(TAB)                   &bt BT_CLR	 &kp I	    &kp B    &kp DOT    &kp H	    &kp GRAVE
                                 &trans              &trans            &mkp RCLK           &mkp LCLK	  &trans   &trans  &trans        &trans     &trans	 &trans
                 >;      
