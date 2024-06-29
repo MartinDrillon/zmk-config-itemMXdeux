@@ -1,6 +1,6 @@
 #include <behaviors.dtsi>
 #include "keys_bepo.h"
-#include "mouse.dtsi"
+//#include "mouse.dtsi"
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/outputs.h>
 
