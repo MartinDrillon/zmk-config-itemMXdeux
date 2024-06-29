@@ -65,6 +65,13 @@
                 COMBO(ctrl_v, 50, &kp LC(BP_V), 27 28)
                 COMBO(ctrl_s, 70, &kp LC(BP_S), 4 5) 
 
+                COMBO(bt_profile_0, 50, &bt BT_SEL 0, 9 10 11) 
+                COMBO(bt_profile_1, 50, &bt BT_SEL 1, 21 22 23) 
+                COMBO(bt_profile_2, 50, &bt BT_SEL 2, 33 34 35)
+
+                COMBO(bt_clear, 50, &bt BT_CLR, 11 23 35) 
+
+
 //                COMBO(lower, 100, &mo 1, 40 42)
 
         };
