@@ -1,4 +1,4 @@
-    if SHIELD_diteMX_right
+    if SHIELD_diteMX_left
 
 config ZMK_KEYBOARD_NAME
     default "ClavierMartinD"
