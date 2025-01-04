@@ -14,8 +14,8 @@
 ---
 include:
   - board: seeeduino_xiao_ble
-    shield: iteMX_left
+    shield: diteMX_left
   - board: seeeduino_xiao_ble
-    shield: iteMX_right
+    shield: diteMX_right
   - board: seeeduino_xiao_ble
     shield: settings_reset  

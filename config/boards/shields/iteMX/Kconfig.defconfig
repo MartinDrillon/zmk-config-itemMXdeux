@@ -1,14 +1,14 @@
-    if SHIELD_iteMX_right
+    if SHIELD_diteMX_right
 
 config ZMK_KEYBOARD_NAME
-    default "Clavier Martin"
+    default "ClavierMartinD"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
 endif
 
-if SHIELD_iteMX_left || SHIELD_iteMX_right
+if SHIELD_diteMX_left || SHIELD_diteMX_right
 
 config ZMK_SPLIT
     default y
