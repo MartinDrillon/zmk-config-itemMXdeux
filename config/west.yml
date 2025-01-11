@@ -9,10 +9,15 @@ manifest:
       url-base: https://github.com/ftc
     - name: urob
       url-base: https://github.com/urob
+    - name: caksoylar  # LED
+      url-base: https://github.com/caksoylar
   projects:
     - name: zmk
       remote: urob
       revision: main
       import: app/west.yml
+    - name: zmk-rgbled-widget  # LED
+      remote: caksoylar
+      revision: main
   self:
     path: config
