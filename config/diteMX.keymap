@@ -126,7 +126,7 @@
                 bindings = <
 &kp BP_AMPS &kp BP_DLLR &kp BP_EURO	  &kp BP_HASH	&kp BP_AT 	    &kp BP_PRCNT                &kp F12	     &kp F6	    &kp F7   &kp F8	    &kp F9	    &kp F10
 &kp BP_LBRC &kp BP_GGA	&kp BP_GDR	  &kp BP_LPAR	&kp BP_RPAR     &kp BP_RBRC                 &kp 11       &kp F1     &kp F2	 &kp F3	&kp F4 	&kp F5
-&kp BP_DEG  &kp BP_LT   &kp BP_GT     &kp BP_LBKT   &kp BP_RBKT    &kp BP_TILDE                 &kp A	     &kp I	    &kp B    &kp DOT    &kp H	    &kp GRAVE
+&ind_bat    &ind_con   &kp BP_GT     &kp BP_LBKT   &kp BP_RBKT    &kp BP_TILDE                 &kp A	     &kp I	    &kp B    &kp DOT    &kp H	    &kp GRAVE
                 &trans        &trans        &trans          &trans    &trans   &trans  &trans        &trans     &trans	 &trans
                 >;      
             };
