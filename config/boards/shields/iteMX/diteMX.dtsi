@@ -1,12 +1,4 @@
 #include <dt-bindings/zmk/matrix_transform.h>
-#include "LED.overlay"
-
-/ {
-    ext_power: ext_power_generic {
-        compatible = "zmk,ext-power-generic";
-        label = "EXT_POWER";
-    };
-};
 
 / {
     chosen {
