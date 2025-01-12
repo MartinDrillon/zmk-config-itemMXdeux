@@ -2,6 +2,13 @@
 #include "LED.overlay"
 
 / {
+    ext_power: ext_power_generic {
+        compatible = "zmk,ext-power-generic";
+        label = "EXT_POWER";
+    };
+};
+
+/ {
     chosen {
         zmk,kscan = &kscan0;
         zmk,matrix_transform = &default_transform;
