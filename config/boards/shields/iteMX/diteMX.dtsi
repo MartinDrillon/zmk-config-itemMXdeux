@@ -7,6 +7,24 @@
         zmk,underglow = &led_strip;
     };
 
+    &spi3 {
+        compatible = "nordic,nrf-spim";
+        status = "okay";
+    
+        led_strip: ws2812@0 {
+            compatible = "worldsemi,ws2812-spi";
+            reg = <0>;  /* Obligatoire pour les bindings SPI */
+            spi-max-frequency = <4000000>;
+    
+            chain-length = <10>;  /* Nombre de LEDs */
+            spi-one-frame = <0x70>;
+            spi-zero-frame = <0x40>;
+            color-mapping = <LED_COLOR_ID_GREEN
+                             LED_COLOR_ID_RED
+                             LED_COLOR_ID_BLUE>;
+        };
+    };
+
     default_transform: keymap_transform_0 {
         compatible = "zmk,matrix-transform";
         columns = <12>;
