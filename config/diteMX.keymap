@@ -4,7 +4,7 @@
 #include "mouse.dtsi"
 #include <dt-bindings/zmk/outputs.h>
 #include <behaviors/rgbled_widget.dtsi>  // needed to use the LED
-#include <dt-bindings/led/led.h>
+
 
 
 //shift circonflexe pour deux point sur le I et test 
