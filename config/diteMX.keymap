@@ -35,12 +35,12 @@
     bindings = <BINDINGS>; \
     key-positions = <KEYPOS>; \
   };
-//         ______________________                   ________________________
-//        |0  |1  |2  |3  |4  |5  |                |6  |7  |8  |9  |10 |11 |
-//        |12 |13 |14 |15 |16 |17 |                |18 |19 |20 |21 |22 |23 |
-//        |24 |25 |26 |27 |28 |29 |___          ___|30 |31 |32 |33 |34 |35 |  
-//             ‾‾‾|36 |37 |38 |39 |40 |        |41 |42 |43 |44 |45 |‾‾‾               
-//                 ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾          ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+//         ______________________                           ________________________
+//        |0  |1  |2  |3  |4  |5  |                         |6  |7  |8  |9  |10 |11 |
+//        |12 |13 |14 |15 |16 |17 |                         |18 |19 |20 |21 |22 |23 |
+//        |24 |25 |26 |27 |28 |29 |______           ________|30 |31 |32 |33 |34 |35 |  
+//             ‾‾‾‾‾‾‾|36 |37 |38 |39 |40|          |41 |42 |43 |44 |45 |‾‾‾               
+//                    ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾           ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
 / {
         combos {
                 compatible = "zmk,combos";
@@ -58,7 +58,7 @@
                 COMBO(enter_un, 80, &kp ENTER, 13 14 15 16)
                 COMBO(enter_two, 80, &kp ENTER, 14 15 16)
                 COMBO(esc, 50, &kp ESC, 0 1)
-                COMBO(caps_lock, 70, &kp CAPS, 38 43)
+                COMBO(caps_lock, 70, &kp CAPS, 37 44)
 
                 COMBO(ctrl_z, 50, &kp LC(BP_Z), 25 26)
                 COMBO(ctrl_c, 50, &kp LC(BP_C), 26 27)
@@ -83,7 +83,7 @@
 &kp TAB	        &kp BP_AGRV	  &kp BP_B    &kp BP_EAIGU      &kp BP_DOT     &AHOH                                &kp BP_K	    &kp BP_V	    &kp BP_L	&kp BP_M	&kp BP_X	&kp BP_CCED
 &kp BP_COMMA	&kp BP_O	  &kp BP_U    &kp BP_A	        &kp BP_I	   &kp BP_J                             &kp BP_G        &kp BP_T	    &kp BP_S	&kp BP_N	&kp BP_R	&kp BP_F
 &kp BP_W        &kp BP_Q	  &kp BP_Y    &kp BP_EGRV	    &kp BP_P	   &kp BP_ECIR                          &APOGUI	        &kp BP_D	    &kp BP_H    &kp BP_C    &kp BP_Z	&mo 2
-                              &kp LCTRL   &kp LSHFT         &kp BP_E	   &mo 1    &kp LALT        &kp LWIN    &kp BSPC        &kp SPACE       &kp RSHFT   &kp RALT	
+                              &kp LCTRL   &kp LSHFT         &kp BP_E	   &mo 1    &kp LALT        &kp BSPC    &kp BSPC        &kp SPACE       &kp RSHFT   &kp RALT	
             >;      
     };
     
