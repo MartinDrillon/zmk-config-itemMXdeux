@@ -5,7 +5,7 @@
 #include <dt-bindings/zmk/outputs.h>
 
 //shift circonflexe pour deux point sur le I et test JE n’ai pas compris 
-// test
+// test taille
 
 #define default 0
 #define lower   1
