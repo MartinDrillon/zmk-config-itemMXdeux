@@ -11,7 +11,8 @@ C’est la cinquième itération d’un projet dont le but est de créer un clav
 ![IteMX2](IMG_20260218_210346.jpg)
 ![IteMX2](IMG_20260218_210424.jpg)
 
-Pour plus de détail sur le projet, voir ici : [https://github.com/MartinDrillon](https://github.com/MartinDrillon/ITEMX)
+Pour plus de détail sur le projet, voir ici : [https://github.com/MartinDrillon/ITEMX](https://github.com/MartinDrillon/ITEMX)
+
 
 
 
