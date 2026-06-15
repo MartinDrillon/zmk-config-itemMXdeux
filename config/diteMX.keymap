@@ -59,7 +59,7 @@
                 COMBO(enter_un, 80, &kp ENTER, 13 14 15 16)
                 COMBO(enter_two, 80, &kp ENTER, 14 15 16)
                 COMBO(esc, 50, &kp ESC, 0 1)
-                COMBO(Lshift, 50, &kp LSHFT, 12 37)
+                COMBO(Lshift, 70, &kp LSHFT, 12 37)
                 COMBO(capslock, 50, &kp CAPS, 37 44)
 
 
