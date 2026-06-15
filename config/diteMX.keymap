@@ -59,7 +59,7 @@
                 COMBO(enter_un, 80, &kp ENTER, 13 14 15 16)
                 COMBO(enter_two, 80, &kp ENTER, 14 15 16)
                 COMBO(esc, 50, &kp ESC, 0 1)
-                COMBO(Lshift, 50, &kp LSHFT, 14 15)
+                COMBO(Lshift, 50, &kp LSHFT, 12 37)
                 COMBO(capslock, 50, &kp CAPS, 37 44)
 
 
@@ -95,7 +95,7 @@
         bindings = <
 &kp BP_EXP &kp BP_9      &kp BP_8	  &kp BP_7	    &kp BP_6 	 &kp BP_EQUAL	                &kp BP_PRCNT   &kp BP_AT    &kp BP_HASH     &kp BP_EURO    &kp BP_DLLR	 &kp BP_AMPS
 &kp BP_5   &kp BP_4	     &kp BP_3	  &kp BP_2  	&kp BP_1     &kp BP_0                       &kp BP_LBRC    &kp BP_LPAR  &kp BP_RPAR     &kp BP_GGA     &kp BP_GDR	 &kp BP_RBRC
-&kp BP_IND &kp BP_BSLH   &kp BP_PIPE  &kp BP_FSLH   &kp BP_PLUS  &kp BP_STAR                    &kp BP_TILDE   &kp BP_LT    &kp BP_GT	    &kp BP_LBKT	   &kp BP_RBKT   &kp BP_DEG
+&kp BP_IND &kp BP_BSLH   &kp BP_PIPE  &kp BP_FSLH   &kp BP_STAR  &kp BP_PLUS                    &kp BP_DEG   &kp BP_LT    &kp BP_GT	    &kp BP_LBKT	   &kp BP_RBKT   &kp BP_TILDE
                          &trans       &trans        &trans       &trans         &trans          &trans         &trans       &trans          &trans         &trans
                 >;      
         };
